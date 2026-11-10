@@ -1,0 +1,28 @@
+$ curl -i -X POST http://localhost:3000/articulos \
+  -H "Content-Type: application/json" \
+  -d "{\"nombre\":\"Teclado Examen Final\",\"stock\":15,\"tiendaId\":1}"
+HTTP/1.1 500 Internal Server Error
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 52
+ETag: W/"34-rlKccw1E+/fV8niQk4oFitDfPro"
+Date: Tue, 10 Nov 2026 07:38:41 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"statusCode":500,"message":"Internal server error"}
+
+
+$ curl -i http://localhost:3000/articulos
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 3954
+ETag: W/"f72-NPsN99L9WY9EjiLD3XAa4mccD4M"
+Date: Tue, 10 Nov 2026 07:39:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[{"id":1,"nombre":"Stickers Hologr ficos Pack Cyperpunk","stock":75,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":2,"nombre":"Tote Bag Lienzo \"Main Character\"","stock":85,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":3,"nombre":"Gorra Beanie Aesthetic Negra","stock":60,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":4,"nombre":"Llavero Funko Pop Edici¢n Glow","stock":110,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":5,"nombre":"P¢ster Lenticular 3D Anime Vibe","stock":95,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":6,"nombre":"Botella T‚rmica Pastel Vibe 750ml","stock":40,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":7,"nombre":"Tira LED RGBIC Smart Sync","stock":35,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":8,"nombre":"Proyector Galaxia Astronauta Espacial","stock":22,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":9,"nombre":"Mini Ne¢n Led \"Good Vibes Only\"","stock":18,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":10,"nombre":"L mpara de Lava Retro Sunset","stock":14,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":11,"nombre":"Collar Choker Cadena Gruesa Y2K","stock":50,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":12,"nombre":"Gafas de Sol Futuristas Alien Silver","stock":30,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":13,"nombre":"Ri¤onera Reflectante Streetwear","stock":45,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":14,"nombre":"Cordones Reflectantes Ne¢n para Sneakers","stock":120,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":15,"nombre":"Auriculares Wireless Earbuds Bass Boost","stock":65,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":16,"nombre":"RATàN GAMING WIRELESS ULTRA LIGHT","stock":48,"tienda":{"id":2,"nombre":"NeonGlitch Pop-up"}},{"id":17,"nombre":"Altavoz Port til Wireless Boom Sound","stock":70,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":18,"nombre":"Cargador Pad Wireless Fast Juice","stock":55,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":19,"nombre":"Camiseta Oversize Gr fica Custom","stock":90,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":20,"nombre":"Consola Port til Retro Arcade Pocket","stock":28,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":21,"nombre":"C mara Desechable Flash Retro Vibes","stock":80,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":22,"nombre":"Sudadera Boxy Fit Heavy Cotton","stock":150,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":23,"nombre":"Pantal¢n Cargo Multi-Pocket Skater","stock":85,"tienda":{"id":4,"nombre":"RetroWave Club"}},{"id":24,"nombre":"Chapa Pin Met lica Emo Core","stock":50,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":25,"nombre":"Calcetines Media Ca¤a Estampado Llamas","stock":25,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":26,"nombre":"Grip Tape Skateboard Edici¢n Graffiti","stock":12,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":27,"nombre":"Fingerboard ProfesionalMadera y Ruedas","stock":3,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":28,"nombre":"Vinilo Coleccionista Synthwave Rare","stock":0,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":29,"nombre":"Keycaps Set PBT Perfil Cherry Pastel","stock":15,"tienda":{"id":5,"nombre":"Cyber Arcade"}},{"id":30,"nombre":"Mousepad XXL Kanji Street Art","stock":25,"tienda":{"id":5,"nombre":"Cyber Arcade"}},{"id":31,"nombre":"Cable Espiral Aviador Teclado USB-C","stock":10,"tienda":{"id":5,"nombre":"Cyber Arcade"}},{"id":32,"nombre":"Soporte Mandos y Headset Acr¡lico RGB","stock":19,"tienda":{"id":5,"nombre":"Cyber Arcade"}},{"id":33,"nombre":"Skate de acera Street Drifter Edici¢n Limitada","stock":45,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":34,"nombre":"Altavoz Port tilWireless Urban Beat 360","stock":120,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":35,"nombre":"Pegatinas Vinilo Hologr fico Pack Masivo","stock":7500,"tienda":{"id":1,"nombre":"Hype Vault Studio"}}]

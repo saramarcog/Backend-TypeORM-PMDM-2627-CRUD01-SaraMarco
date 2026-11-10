@@ -1,0 +1,14 @@
+$ curl -i -X PATCH http://localhost:3000/articulos/1/tienda \
+  -H "Content-Type: application/json" \
+  -d "{\"nuevaTiendaId\":2}"
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-mp76xueJwuBg6SC3F/3HJjTMrec"
+Date: Tue, 10 Nov 2026 07:40:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"generatedMaps":[],"raw":[],"affected":1}

@@ -1,0 +1,12 @@
+ curl -i http://localhost:3000/articulos/stock/50
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 2032
+ETag: W/"7f0-qqDBhKAs0xx1LsbnhEoN7eqskH0"
+Date: Tue, 10 Nov 2026 07:40:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[{"id":1,"nombre":"Stickers Hologr ficos Pack Cyperpunk","stock":88,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":2,"nombre":"Tote Bag Lienzo \"Main Character\"","stock":85,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":3,"nombre":"Gorra Beanie Aesthetic Negra","stock":60,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":4,"nombre":"Llavero Funko Pop Edici¢n Glow","stock":110,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":5,"nombre":"P¢ster Lenticular 3D Anime Vibe","stock":95,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":11,"nombre":"Collar Choker Cadena Gruesa Y2K","stock":50,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":12,"nombre":"Gafas de Sol Futuristas Alien Silver","stock":88,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":14,"nombre":"Cordones Reflectantes Ne¢n para Sneakers","stock":120,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":15,"nombre":"Auriculares Wireless Earbuds Bass Boost","stock":65,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":17,"nombre":"Altavoz Port til Wireless Boom Sound","stock":70,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":18,"nombre":"Cargador Pad Wireless Fast Juice","stock":55,"tienda":{"id":3,"nombre":"Drip Corner"}},{"id":19,"nombre":"Camiseta Oversize Gr fica Custom","stock":90,"tienda":{"id":1,"nombre":"Hype Vault Studio"}},{"id":21,"nombre":"C mara Desechable Flash Retro Vibes","stock":80,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":22,"nombre":"Sudadera Boxy Fit Heavy Cotton","stock":150,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":23,"nombre":"Pantal¢n Cargo Multi-Pocket Skater","stock":85,"tienda":{"id":4,"nombre":"Retro Wave Club"}},{"id":24,"nombre":"Chapa Pin Met lica Emo Core","stock":50,"tienda":{"id":4,"nombre":"RetroWave Club"}},{"id":34,"nombre":"Altavoz Port til Wireless Urban Beat 360","stock":120,"tienda":{"id":2,"nombre":"Neon Glitch Pop-up"}},{"id":35,"nombre":"Pegatinas Vinilo Hologr fico Pack Masivo","stock":7500,"tienda":{"id":1,"nombre":"Hype Vault Studio"}}]
